@@ -14,3 +14,6 @@ class App extends Component {
         .then(data => this.setState({ users : data.results.sort((a,b) => a.name.last > b.name.last ? 1 : -1) }))
         .catch(err => console.log(err));
     }
+    handleSearchValue = (searchValue) => {
+        this.setState({ search : searchValue });
+      }
