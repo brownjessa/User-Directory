@@ -20,3 +20,4 @@ render () {
         </div>
     )
 }
+export default SearchInput;
