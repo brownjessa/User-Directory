@@ -21,9 +21,18 @@ const EmployeeTable = (props) => {
         {users.map((user) => (
           <tr>
             <td>{user.name.first}</td>
+            <td>{user.name.last}</td>
+            <td>
+              {user.location.street.number + " " + user.location.street.name}
+            </td>
+            <td>{user.location.city}</td>
+            <td>{user.location.state}</td>
+            <td>{user.location.postcode}</td>
+            <td>{user.email}</td>
           </tr>
         ))}
       </tbody>
     </table>
   );
 };
+export default EmployeeTable;
