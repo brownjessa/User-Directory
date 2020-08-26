@@ -17,3 +17,6 @@ class App extends Component {
     handleSearchValue = (searchValue) => {
         this.setState({ search : searchValue });
       }
+    handleReverseOrder = () => {
+        this.setState({ users : [...this.state.users.reverse()] })
+      }  
