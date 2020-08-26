@@ -17,6 +17,13 @@ const EmployeeTable = (props) => {
           <th>email</th>
         </tr>
       </thead>
+      <tbody>
+        {users.map((user) => (
+          <tr>
+            <td>{user.name.first}</td>
+          </tr>
+        ))}
+      </tbody>
     </table>
   );
 };
