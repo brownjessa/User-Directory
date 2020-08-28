@@ -8,3 +8,9 @@ To organize the table by last name, the user simply has to click on "Last Name" 
 # Technologies
 React
 Axios
+Node JS
+
+# Sources Ouside of School Used
+
+https://www.digitalocean.com/community/tutorials/react-axios-react
+http://coenraets.org/blog/2014/12/employee-directory-sample-app-with-react-and-node-js/
